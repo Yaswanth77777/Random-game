@@ -1,0 +1,19 @@
+
+body{
+    background-color: rgb(149, 244, 60);
+}
+p{
+    font-size: 30px;
+ 
+    color: blue;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 50px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color: orange;
+    size: 5cm;
+}

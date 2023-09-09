@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <p>Enter your preferred range (eg: for 1 to 10 enter 10 )</p>
+    <input type="text" id="lll">
+    <br><br><br>
+    <p>Enter your number:</p>
+    <input type="text" id="fff">
+    <br><br>
+    <button type="button"  id="gg" onclick="game()">Enter</button>
+</div>
+    <br><br>
+    <br><br><br><br>
+    <h1>
+    <output id="jjj">RESULT</output>
+</h1>
+    <br><br><br>
+    <button type="button" onclick="game()"><a href="webapp.html"> Wanna try again </a></button>
+    <script>
+        function game()
+        {
+        const x=document.getElementById("fff").value ;
+        const z= document.getElementById("lll").value ;
+            s=1;
+        function rand(int ,int )
+        {
+            return (Math.random()*z);
+        }
+        const y= parseInt(rand(s,z)) + 1;
+    
+        if(x==y)
+        {
+            document.getElementById("jjj").innerHTML="YOU ARE CORRECT";
+        }
+        else
+        {
+            document.getElementById("jjj").innerHTML="YOU ARE WRONG. Answer is "+y;
+        }
+        document.getElementById("gg").disabled = true;
+    }
+    </script>
+</body>
+</html>

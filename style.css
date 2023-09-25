@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(149, 244, 60);
+    background-color:powderblue;
 }
 p{
     font-size: 30px;
@@ -14,6 +14,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Times New Roman', Times, serif;
 }
 button{
+    border-radius:5px;
     background-color: orange;
     size: 5cm;
 }
